@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+li{
+   list-style: none;
+}
+
+body {
+   background: -webkit-linear-gradient(90deg, #7ceece,#d7f7d4,#a8d5ff);
+   background: linear-gradient(90deg, #7ceece,#d7f7d4,#a8d5ff);
+   font-family: 'Libre Baskerville', serif;
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   
+}
+/* ------------------------------------ */
+.container  {
+   border: 7px solid rgb(0, 0, 0);
+   width: 400px;
+   margin: auto;
+   height: 600px;
+  
+}
+/* ----------------------------------------------- */
+
+
+.btn {
+   background-color: transparent;
+   padding: 5px 3px 5px 3px;
+   border-radius: 3px ;
+}
+.btn-form {
+   margin-left: 15px;
+}
+
+.btn-remov {
+   border-color: rgb(255, 0, 89);
+}
+.btn-done {
+   margin-left: 10px;
+   border-color: #7ceece;
+}
+.content-buttons {
+   display: flex;
+   align-items: center;
+   
+}
+/* ----------------------------------------------- */
+.header {
+   text-align: center;
+   padding: 70px 0px 30px 0px;
+}
+.todo-title {
+   font-size: 34px;
+}
+.sub-title {
+}
+
+.form-group {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form-control {
+   border: none;
+   width: 280px;
+   height: 20px;
+}
+
+
+.list__content {
+   height: 380px;
+   overflow: auto;
+   
+}
+.content-group {
+   display: flex;
+   margin: 20px 10px 15px 40px;
+   gap: 20px;
+}
+
+.text-decoration {
+   text-decoration: line-through;
+}
+
